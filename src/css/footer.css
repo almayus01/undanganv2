@@ -1,0 +1,45 @@
+footer {
+  text-align: center;
+  background-image: url(../assets/images/background-6.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+footer h2 {
+  font-size: var(--fontSize-heading-base);
+  font-family: "Dancing Script";
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+footer h4 {
+  font-size: 1.6rem;
+  font-family: var(--arabic);
+  font-weight: 400;
+}
+
+footer > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  margin-top: 1rem;
+  padding-top: 0.6rem;
+}
+
+footer > div p {
+  font-size: 0.6rem;
+}
+
+footer > div p span {
+  font-weight: bold;
+}
+
+footer > div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 0.8rem;
+}
